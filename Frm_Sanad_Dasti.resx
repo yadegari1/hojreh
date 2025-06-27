@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GridEX1_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;DynamicFiltering&gt;True&lt;/DynamicFiltering&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="hesab_name"&gt;&lt;ButtonDisplayMode&gt;CurrentRow&lt;/ButtonDisplayMode&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;ButtonText&gt;...&lt;/ButtonText&gt;&lt;ButtonStyle&gt;TextButton&lt;/ButtonStyle&gt;&lt;Caption&gt;نوع حساب&lt;/Caption&gt;&lt;DataMember&gt;hesab_name&lt;/DataMember&gt;&lt;Key&gt;hesab_name&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;131&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="hesab"&gt;&lt;ButtonDisplayMode&gt;CurrentRow&lt;/ButtonDisplayMode&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;ButtonText&gt;...&lt;/ButtonText&gt;&lt;ButtonStyle&gt;TextButton&lt;/ButtonStyle&gt;&lt;Caption&gt;طرف حساب&lt;/Caption&gt;&lt;DataMember&gt;hesab&lt;/DataMember&gt;&lt;Key&gt;hesab&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;152&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="bed"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;بدهکار&lt;/Caption&gt;&lt;DataMember&gt;bed&lt;/DataMember&gt;&lt;EditType&gt;Custom&lt;/EditType&gt;&lt;FormatString&gt;N0&lt;/FormatString&gt;&lt;Key&gt;bed&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;147&lt;/Width&gt;&lt;TotalFormatString&gt;N0&lt;/TotalFormatString&gt;&lt;/Column2&gt;&lt;Column3 ID="bes"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;بستانکار&lt;/Caption&gt;&lt;DataMember&gt;bes&lt;/DataMember&gt;&lt;EditType&gt;Custom&lt;/EditType&gt;&lt;FormatString&gt;N0&lt;/FormatString&gt;&lt;Key&gt;bes&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;131&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="desc"&gt;&lt;Caption&gt;توضیحات&lt;/Caption&gt;&lt;DataMember&gt;desc&lt;/DataMember&gt;&lt;Key&gt;desc&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Width&gt;388&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="hesab_type"&gt;&lt;Caption&gt;hesab_type&lt;/Caption&gt;&lt;DataMember&gt;hesab_type&lt;/DataMember&gt;&lt;Key&gt;hesab_type&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column5&gt;&lt;Column6 ID="hesab_id"&gt;&lt;Caption&gt;hesab_id&lt;/Caption&gt;&lt;DataMember&gt;hesab_id&lt;/DataMember&gt;&lt;Key&gt;hesab_id&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column6&gt;&lt;Column7 ID="codehesab_id"&gt;&lt;Caption&gt;codehesab_id&lt;/Caption&gt;&lt;DataMember&gt;codehesab_id&lt;/DataMember&gt;&lt;Key&gt;codehesab_id&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column7&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;23&lt;/RowHeight&gt;&lt;TotalRow&gt;True&lt;/TotalRow&gt;&lt;StoredFilters Collection="true" ElementName="StoredFilter"&gt;&lt;StoredFilter0 ID="StoredFilter1"&gt;&lt;FilterCondition&gt;&lt;Value1&gt;-1&lt;/Value1&gt;&lt;Conditions Collection="true" ElementName="FilterCondition"&gt;&lt;FilterCondition0&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;4&lt;/Value1&gt;&lt;/FilterCondition0&gt;&lt;FilterCondition1&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;5&lt;/Value1&gt;&lt;/FilterCondition1&gt;&lt;FilterCondition2&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;6&lt;/Value1&gt;&lt;/FilterCondition2&gt;&lt;FilterCondition3&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;8&lt;/Value1&gt;&lt;/FilterCondition3&gt;&lt;FilterCondition4&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;25&lt;/Value1&gt;&lt;/FilterCondition4&gt;&lt;FilterCondition5&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;27&lt;/Value1&gt;&lt;/FilterCondition5&gt;&lt;FilterCondition6&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;28&lt;/Value1&gt;&lt;/FilterCondition6&gt;&lt;FilterCondition7&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;3&lt;/Value1&gt;&lt;/FilterCondition7&gt;&lt;FilterCondition8&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;33&lt;/Value1&gt;&lt;/FilterCondition8&gt;&lt;FilterCondition9&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;34&lt;/Value1&gt;&lt;/FilterCondition9&gt;&lt;FilterCondition10&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;35&lt;/Value1&gt;&lt;/FilterCondition10&gt;&lt;FilterCondition11&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;36&lt;/Value1&gt;&lt;/FilterCondition11&gt;&lt;FilterCondition12&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;38&lt;/Value1&gt;&lt;/FilterCondition12&gt;&lt;FilterCondition13&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;40&lt;/Value1&gt;&lt;/FilterCondition13&gt;&lt;FilterCondition14&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;41&lt;/Value1&gt;&lt;/FilterCondition14&gt;&lt;/Conditions&gt;&lt;/FilterCondition&gt;&lt;IsCurrent&gt;True&lt;/IsCurrent&gt;&lt;Key&gt;StoredFilter1&lt;/Key&gt;&lt;/StoredFilter0&gt;&lt;/StoredFilters&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+</root>
