@@ -1,0 +1,216 @@
+﻿namespace FruitBox
+{
+	// Token: 0x020000CC RID: 204
+	[global::Microsoft.VisualBasic.CompilerServices.DesignerGenerated]
+	public partial class Frm_Hazine_Kharid : global::System.Windows.Forms.Form
+	{
+		// Token: 0x06001128 RID: 4392 RVA: 0x000BBABC File Offset: 0x000B9CBC
+		[global::System.Diagnostics.DebuggerNonUserCode]
+		protected override void Dispose(bool disposing)
+		{
+			try
+			{
+				bool flag = disposing && this.components != null;
+				if (flag)
+				{
+					this.components.Dispose();
+				}
+			}
+			finally
+			{
+				base.Dispose(disposing);
+			}
+		}
+
+		// Token: 0x06001129 RID: 4393 RVA: 0x000BBB0C File Offset: 0x000B9D0C
+		[global::System.Diagnostics.DebuggerStepThrough]
+		private void InitializeComponent()
+		{
+			this.components = new global::System.ComponentModel.Container();
+			global::Janus.Windows.GridEX.GridEXLayout gridEXLayout = new global::Janus.Windows.GridEX.GridEXLayout();
+			global::System.ComponentModel.ComponentResourceManager componentResourceManager = new global::System.ComponentModel.ComponentResourceManager(typeof(global::FruitBox.Frm_Hazine_Kharid));
+			this.UiGroupBox1 = new global::Janus.Windows.EditControls.UIGroupBox();
+			this.UiButton4 = new global::Janus.Windows.EditControls.UIButton();
+			this.UiButton3 = new global::Janus.Windows.EditControls.UIButton();
+			this.GridEX1 = new global::FruitBox.DataEntryGrid(this.components);
+			this.txt_name = new global::FruitBox.EditBox(this.components);
+			this.Label1 = new global::System.Windows.Forms.Label();
+			this.Bar1 = new global::DevComponents.DotNetBar.Bar();
+			this.ButtonItem1 = new global::DevComponents.DotNetBar.ButtonItem();
+			this.ButtonItem2 = new global::DevComponents.DotNetBar.ButtonItem();
+			this.ButtonItem3 = new global::DevComponents.DotNetBar.ButtonItem();
+			((global::System.ComponentModel.ISupportInitialize)this.UiGroupBox1).BeginInit();
+			this.UiGroupBox1.SuspendLayout();
+			((global::System.ComponentModel.ISupportInitialize)this.GridEX1).BeginInit();
+			((global::System.ComponentModel.ISupportInitialize)this.Bar1).BeginInit();
+			this.SuspendLayout();
+			this.UiGroupBox1.BackgroundStyle = global::Janus.Windows.EditControls.BackgroundStyle.Panel;
+			this.UiGroupBox1.Controls.Add(this.UiButton4);
+			this.UiGroupBox1.Controls.Add(this.UiButton3);
+			this.UiGroupBox1.Controls.Add(this.GridEX1);
+			this.UiGroupBox1.Controls.Add(this.txt_name);
+			this.UiGroupBox1.Controls.Add(this.Label1);
+			this.UiGroupBox1.Dock = global::System.Windows.Forms.DockStyle.Fill;
+			this.UiGroupBox1.FrameStyle = global::Janus.Windows.EditControls.FrameStyle.None;
+			global::System.Windows.Forms.Control arg_189_0 = this.UiGroupBox1;
+			global::System.Drawing.Point location = new global::System.Drawing.Point(0, 41);
+			arg_189_0.Location = location;
+			this.UiGroupBox1.Name = "UiGroupBox1";
+			this.UiGroupBox1.OfficeColorScheme = global::Janus.Windows.UI.OfficeColorScheme.Silver;
+			global::System.Windows.Forms.Control arg_1C7_0 = this.UiGroupBox1;
+			global::System.Drawing.Size size = new global::System.Drawing.Size(481, 473);
+			arg_1C7_0.Size = size;
+			this.UiGroupBox1.TabIndex = 14;
+			this.UiGroupBox1.VisualStyle = global::Janus.Windows.UI.Dock.PanelVisualStyle.Office2010;
+			this.UiButton4.Anchor = (global::System.Windows.Forms.AnchorStyles.Top | global::System.Windows.Forms.AnchorStyles.Right);
+			this.UiButton4.Image = global::FruitBox.My.Resources.Resources.arrow_down;
+			global::Janus.Windows.EditControls.UIButton arg_21B_0 = this.UiButton4;
+			size = new global::System.Drawing.Size(32, 32);
+			arg_21B_0.ImageSize = size;
+			global::System.Windows.Forms.Control arg_237_0 = this.UiButton4;
+			location = new global::System.Drawing.Point(432, 91);
+			arg_237_0.Location = location;
+			this.UiButton4.Name = "UiButton4";
+			this.UiButton4.OfficeColorScheme = global::Janus.Windows.UI.OfficeColorScheme.Custom;
+			this.UiButton4.OfficeCustomColor = global::System.Drawing.Color.SteelBlue;
+			global::System.Windows.Forms.Control arg_280_0 = this.UiButton4;
+			size = new global::System.Drawing.Size(42, 39);
+			arg_280_0.Size = size;
+			this.UiButton4.TabIndex = 3;
+			this.UiButton4.VisualStyle = global::Janus.Windows.UI.VisualStyle.Office2010;
+			this.UiButton3.Anchor = (global::System.Windows.Forms.AnchorStyles.Top | global::System.Windows.Forms.AnchorStyles.Right);
+			this.UiButton3.Image = global::FruitBox.My.Resources.Resources.arrow_up;
+			global::Janus.Windows.EditControls.UIButton arg_2D3_0 = this.UiButton3;
+			size = new global::System.Drawing.Size(32, 32);
+			arg_2D3_0.ImageSize = size;
+			global::System.Windows.Forms.Control arg_2EF_0 = this.UiButton3;
+			location = new global::System.Drawing.Point(432, 50);
+			arg_2EF_0.Location = location;
+			this.UiButton3.Name = "UiButton3";
+			this.UiButton3.OfficeColorScheme = global::Janus.Windows.UI.OfficeColorScheme.Custom;
+			this.UiButton3.OfficeCustomColor = global::System.Drawing.Color.SteelBlue;
+			global::System.Windows.Forms.Control arg_338_0 = this.UiButton3;
+			size = new global::System.Drawing.Size(42, 35);
+			arg_338_0.Size = size;
+			this.UiButton3.TabIndex = 4;
+			this.UiButton3.VisualStyle = global::Janus.Windows.UI.VisualStyle.Office2010;
+			this.GridEX1.AllowEdit = global::Janus.Windows.GridEX.InheritableBoolean.False;
+			this.GridEX1.AlternatingColors = true;
+			this.GridEX1.Anchor = (global::System.Windows.Forms.AnchorStyles.Top | global::System.Windows.Forms.AnchorStyles.Bottom | global::System.Windows.Forms.AnchorStyles.Left | global::System.Windows.Forms.AnchorStyles.Right);
+			this.GridEX1.AutoEdit = true;
+			gridEXLayout.LayoutString = componentResourceManager.GetString("GridEX1_DesignTimeLayout.LayoutString");
+			this.GridEX1.DesignTimeLayout = gridEXLayout;
+			this.GridEX1.EnterKeyBehavior = global::Janus.Windows.GridEX.EnterKeyBehavior.None;
+			this.GridEX1.FocusStyle = global::Janus.Windows.GridEX.FocusStyle.Solid;
+			this.GridEX1.Font = new global::System.Drawing.Font("Tahoma", 12f);
+			this.GridEX1.GridLineStyle = global::Janus.Windows.GridEX.GridLineStyle.Solid;
+			this.GridEX1.GroupByBoxVisible = false;
+			this.GridEX1.HideSelection = global::Janus.Windows.GridEX.HideSelection.Highlight;
+			global::System.Windows.Forms.Control arg_41A_0 = this.GridEX1;
+			location = new global::System.Drawing.Point(3, 50);
+			arg_41A_0.Location = location;
+			this.GridEX1.Name = "GridEX1";
+			this.GridEX1.NewRowPosition = global::Janus.Windows.GridEX.NewRowPosition.BottomRow;
+			this.GridEX1.OfficeColorScheme = global::Janus.Windows.GridEX.OfficeColorScheme.Blue;
+			this.GridEX1.RowHeaderContent = global::Janus.Windows.GridEX.RowHeaderContent.RowPosition;
+			this.GridEX1.RowHeaders = global::Janus.Windows.GridEX.InheritableBoolean.True;
+			global::System.Windows.Forms.Control arg_47F_0 = this.GridEX1;
+			size = new global::System.Drawing.Size(427, 423);
+			arg_47F_0.Size = size;
+			this.GridEX1.TabIndex = 2;
+			this.GridEX1.TotalRowFormatStyle.BackColor = global::System.Drawing.Color.AliceBlue;
+			this.GridEX1.TotalRowFormatStyle.BackColorGradient = global::System.Drawing.Color.DarkTurquoise;
+			this.GridEX1.TotalRowFormatStyle.BackgroundGradientMode = global::Janus.Windows.GridEX.BackgroundGradientMode.Vertical;
+			this.GridEX1.UpdateMode = global::Janus.Windows.GridEX.UpdateMode.CellUpdate;
+			this.GridEX1.VisualStyle = global::Janus.Windows.GridEX.VisualStyle.Office2010;
+			this.txt_name.AcceptEnter = true;
+			this.txt_name.AllowEdit = true;
+			this.txt_name.AllowNew = true;
+			this.txt_name.Anchor = (global::System.Windows.Forms.AnchorStyles.Top | global::System.Windows.Forms.AnchorStyles.Right);
+			this.txt_name.FocusColor = true;
+			this.txt_name.Font = new global::System.Drawing.Font("Mitra", 14.25f, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point, 178);
+			global::System.Windows.Forms.Control arg_563_0 = this.txt_name;
+			location = new global::System.Drawing.Point(171, 6);
+			arg_563_0.Location = location;
+			this.txt_name.Name = "txt_name";
+			this.txt_name.Nullable = false;
+			this.txt_name.NullToolTipText = "عنوان کالا را وارد نمائید";
+			this.txt_name.ShortcutsEnabled = false;
+			global::System.Windows.Forms.Control arg_5BC_0 = this.txt_name;
+			size = new global::System.Drawing.Size(259, 36);
+			arg_5BC_0.Size = size;
+			this.txt_name.TabIndex = 1;
+			this.txt_name.VisualStyle = global::Janus.Windows.GridEX.VisualStyle.Office2010;
+			this.Label1.Anchor = (global::System.Windows.Forms.AnchorStyles.Top | global::System.Windows.Forms.AnchorStyles.Right);
+			this.Label1.AutoSize = true;
+			this.Label1.BackColor = global::System.Drawing.Color.Transparent;
+			this.Label1.Font = new global::System.Drawing.Font("Tahoma", 12f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 178);
+			this.Label1.ForeColor = global::System.Drawing.Color.DimGray;
+			global::System.Windows.Forms.Control arg_651_0 = this.Label1;
+			location = new global::System.Drawing.Point(432, 15);
+			arg_651_0.Location = location;
+			this.Label1.Name = "Label1";
+			global::System.Windows.Forms.Control arg_67C_0 = this.Label1;
+			size = new global::System.Drawing.Size(46, 19);
+			arg_67C_0.Size = size;
+			this.Label1.TabIndex = 0;
+			this.Label1.Text = "عنوان";
+			this.Bar1.AntiAlias = true;
+			this.Bar1.Dock = global::System.Windows.Forms.DockStyle.Top;
+			this.Bar1.Font = new global::System.Drawing.Font("Tahoma", 9f, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point, 0);
+			this.Bar1.Items.AddRange(new global::DevComponents.DotNetBar.BaseItem[]
+			{
+				this.ButtonItem1,
+				this.ButtonItem2,
+				this.ButtonItem3
+			});
+			global::DevComponents.DotNetBar.Bar arg_725_0 = this.Bar1;
+			location = new global::System.Drawing.Point(0, 0);
+			arg_725_0.Location = location;
+			this.Bar1.Name = "Bar1";
+			global::DevComponents.DotNetBar.Bar arg_753_0 = this.Bar1;
+			size = new global::System.Drawing.Size(481, 41);
+			arg_753_0.Size = size;
+			this.Bar1.Stretch = true;
+			this.Bar1.Style = global::DevComponents.DotNetBar.eDotNetBarStyle.OfficeMobile2014;
+			this.Bar1.TabIndex = 15;
+			this.Bar1.TabStop = false;
+			this.Bar1.Text = "Bar1";
+			this.ButtonItem1.ButtonStyle = global::DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+			this.ButtonItem1.Image = global::FruitBox.My.Resources.Resources.document;
+			this.ButtonItem1.Name = "ButtonItem1";
+			this.ButtonItem1.Text = "جدید (Ins)";
+			this.ButtonItem2.ButtonStyle = global::DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+			this.ButtonItem2.Image = global::FruitBox.My.Resources.Resources.save;
+			this.ButtonItem2.Name = "ButtonItem2";
+			this.ButtonItem2.Text = "ثبت (F2)";
+			this.ButtonItem3.ButtonStyle = global::DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+			this.ButtonItem3.Image = global::FruitBox.My.Resources.Resources.trash_bin;
+			this.ButtonItem3.Name = "ButtonItem3";
+			this.ButtonItem3.Text = "حذف (F5)";
+			global::System.Drawing.SizeF autoScaleDimensions = new global::System.Drawing.SizeF(6f, 13f);
+			this.AutoScaleDimensions = autoScaleDimensions;
+			this.AutoScaleMode = global::System.Windows.Forms.AutoScaleMode.Font;
+			size = new global::System.Drawing.Size(481, 514);
+			this.ClientSize = size;
+			this.Controls.Add(this.UiGroupBox1);
+			this.Controls.Add(this.Bar1);
+			this.KeyPreview = true;
+			this.MaximizeBox = false;
+			this.MinimizeBox = false;
+			this.Name = "Frm_Hazine_Kharid";
+			this.RightToLeft = global::System.Windows.Forms.RightToLeft.Yes;
+			this.StartPosition = global::System.Windows.Forms.FormStartPosition.CenterScreen;
+			this.Text = "تعریف کرایه و مخارج";
+			((global::System.ComponentModel.ISupportInitialize)this.UiGroupBox1).EndInit();
+			this.UiGroupBox1.ResumeLayout(false);
+			this.UiGroupBox1.PerformLayout();
+			((global::System.ComponentModel.ISupportInitialize)this.GridEX1).EndInit();
+			((global::System.ComponentModel.ISupportInitialize)this.Bar1).EndInit();
+			this.ResumeLayout(false);
+		}
+
+		// Token: 0x04000695 RID: 1685
+		private global::System.ComponentModel.IContainer components;
+	}
+}
